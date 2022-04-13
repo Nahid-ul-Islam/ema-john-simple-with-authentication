@@ -1,13 +1,19 @@
 .form-container {
     width: 600px;
-    margin: 0 auto;
+    margin: 20px auto;
+    padding-bottom: 40px;
     border: 1px solid #95A0A7;
     box-sizing: border-box;
     border-radius: 8px;
     display: flex;
     justify-content: center;
 }
+.form-container p {
+    text-align: center;
+    margin-bottom: 4px;
+}
 .form-title {
+    text-align: center;
     font-size: 35px;
     color: #2A414F;
     font-weight: 400;
@@ -33,9 +39,32 @@
     background-color: rgba(255, 153, 0, 0.3);
     border-radius: 5px;
     border: none;
+    cursor: pointer;
     font-size: 20px;
+}
+.form-submit:hover {
+    background-color: rgba(255, 153, 0, 0.5);
 }
 .form-link {
     color: #FF9900;
     text-decoration: none;
+}
+.hr-line {
+    display: flex;
+}
+.hr-line hr {
+    width: 190px;
+    margin-top: 28px;
+}
+.hr-line p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.continue-google {
+    width: 415px;
+    height: 55px;
+    margin-top: 20px;
+    border: 1px solid #95A0A7;
+    border-radius: 5px;
+    font-weight: 500;
 }
